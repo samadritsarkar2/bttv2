@@ -1,0 +1,20 @@
+.footer {
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #ceff5b;
+  }
+
+h1 {
+  font-family: 'Product Sans';
+  font-weight: 700;
+  font-size: 3rem;
+  
+}
+
+.des {
+  font-size: 1.5rem;
+}
