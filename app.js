@@ -32,10 +32,6 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors()); 
 
-app.get("/", (req,res)=> {
-    res.send("Basic Skeleton Setup");
-})
-
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
 app.use("/api", postRoutes);
