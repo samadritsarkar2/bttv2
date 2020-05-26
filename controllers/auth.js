@@ -34,7 +34,7 @@ exports.signin = (req, res) => {
   console.log("hit signin");
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    return res.status(422).json({ errors: errors.array() });
+    return res.status(422).json({ error : errors.array() });
   }
   User.findOne({ email }, (err, user) => {
     if (err || !user) {
