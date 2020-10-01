@@ -2,7 +2,7 @@
 
 ## A project for showcasing the beauty of Tripura.
 
-Users can add in name of locations along with details and can upload a picture.
+Users can add in name of new locations along with details and can upload a picture of that location.
 
 User need to signin/signup first to post something.
 
