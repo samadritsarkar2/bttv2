@@ -36,7 +36,7 @@ const APost = ({match, location}) => {
 
    useEffect(()=>{
        preloadData();
-   })
+   }, [])
 
    const delButton = () => {
      alert("Are you sure you want to delete this post?");

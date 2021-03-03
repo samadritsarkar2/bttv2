@@ -68,7 +68,7 @@ const AllPosts = () => {
 
     useEffect(()=>{
         preloadData();
-    }, [posts]);
+    }, []);
 
     return (
       <div>
