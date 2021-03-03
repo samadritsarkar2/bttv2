@@ -105,7 +105,7 @@ const AllPosts = () => {
               })}
             </div>
           </div>
-          {pagination()}
+          {/* {pagination()} */}
         </Base>
       </div>
     );
